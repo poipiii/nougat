@@ -145,7 +145,7 @@ class SciPDFDataset(Dataset):
         self,
         path_to_index: str,
         split: str = "train",
-        root_name="",
+        root_name="/kaggle/input/nougat-dataset/nougat_dataset_formatted3/nougat_dataset_formatted3",
         template="%s",
     ) -> None:
         super().__init__()
